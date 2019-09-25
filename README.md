@@ -2,6 +2,7 @@
 
 # What is this?
 - eOS X is a modification of the default Elementary OS theme with the addition of traffic light window controls
+- It utilizes Elementary's updated more neutral dark scheme
 - In addition to the GTK theme a dark variant of Elementary's default plank theme was included
 
 
