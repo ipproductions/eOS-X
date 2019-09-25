@@ -1,0 +1,123 @@
+/******************
+ *  OS X buttons  *
+ ******************/
+.selection-mode.titlebar .titlebutton.minimize,
+.titlebar .titlebutton.minimize {
+    color: transparent;
+    border:none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/min.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.minimize:backdrop,
+.titlebar .titlebutton.minimize:backdrop {
+    background-image: -gtk-scaled(url("assets/min_unfocused.svg"));
+    color: transparent;
+}
+
+.selection-mode.titlebar .titlebutton.minimize:hover,
+.selection-mode.titlebar .titlebutton.minimize:checked,
+.titlebar .titlebutton.minimize:hover,
+.titlebar .titlebutton.minimize:checked {
+    color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/min_prelight.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.maximize,
+.titlebar .titlebutton.maximize {
+   color: transparent;
+    border: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/maximize.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.maximize:backdrop,
+.titlebar .titlebutton.maximize:backdrop {
+    background-image: -gtk-scaled(url("assets/maximize_unfocused.svg"));
+    color: transparent;
+}
+
+.selection-mode.titlebar .titlebutton.maximize:hover,
+.selection-mode.titlebar .titlebutton.maximize:checked,
+.titlebar .titlebutton.maximize:hover,
+.titlebar .titlebutton.maximize:checked  {
+    color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/maximize_prelight.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.close,
+.titlebar .titlebutton.close {
+   color: transparent;
+    border: none;
+    box-shadow: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/close.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.close:backdrop,
+.titlebar .titlebutton.close:backdrop {
+    background-image: -gtk-scaled(url("assets/close_unfocused.svg"));
+    color: transparent;
+}
+
+.selection-mode.titlebar .titlebutton.close:hover,
+.selection-mode.titlebar .titlebutton.close:checked,
+.titlebar .titlebutton.close:hover,
+.titlebar .titlebutton.close:checked  {
+   color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/close_prelight.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.close:active,
+.titlebar .titlebutton.close:active  {
+   color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/close_pressed.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.maximize:active,
+.titlebar .titlebutton.maximize:active  {
+   color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/maximize_pressed.svg"));
+}
+
+.selection-mode.titlebar .titlebutton.minimize:active,
+.titlebar .titlebutton.minimize:active  {
+   color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: -gtk-scaled(url("assets/min_pressed.svg"));
+}
+
